@@ -5,7 +5,6 @@ from PIL import Image
 import os
 
 
-# Define a custom dataset class for your .tif images
 class CustomDataset(Dataset):
     def __init__(self, data_dir, transform=None):
         self.data_dir = data_dir
